@@ -17,7 +17,7 @@ const Campus = () => {
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/stu.jpg"
+              src="/img/camp1.jpg"
               width={300}
               height={300}
               alt="Campus library"
@@ -26,7 +26,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/res.jpg"
+              src="/img/camp2.png"
               width={300}
               height={300}
               alt="Student lounge"
@@ -35,7 +35,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/about.JPG"
+              src="/img/camp3.jpg"
               width={300}
               height={300}
               alt="Research laboratory"
@@ -44,7 +44,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/stu.jpg"
+              src="/img/camp4.JPG"
               width={300}
               height={300}
               alt="Student activities"
@@ -53,7 +53,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/main.jpg"
+              src="/img/camp5.jpg"
               width={300}
               height={300}
               alt="Campus grounds"
@@ -62,7 +62,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/about.JPG"
+              src="/img/camp6.jpg"
               width={300}
               height={300}
               alt="Lecture hall"
@@ -71,7 +71,7 @@ const Campus = () => {
           </div>
           <div className="aspect-square overflow-hidden rounded-lg hover:shadow-lg cursor-pointer">
             <Image
-              src="/img/main.jpg"
+              src="/img/about.JPG"
               width={300}
               height={300}
               alt="Student dormitory"
