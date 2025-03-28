@@ -12,7 +12,7 @@ const Hero = () => {
       className="w-full h-[600px] object-cover"
       priority
     />
-      <div className=" p-8 absolute z-10 inset-0 flex flex-col justify-center max-w-2xl text-white">
+      <div className=" px-4 py-6 sm:p-8 absolute z-10 inset-0 flex flex-col justify-center max-w-2xl text-white">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           Shaping the Future of Pharmaceutical Excellence
         </h1>

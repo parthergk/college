@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="contact" className="py-16 md:py-24 bg-[#0e7490] text-white">
-      <div className="container mx-auto px-8 2xl:max-w-[1400px]">
+      <div className="container mx-auto px-3 sm:px-8 2xl:max-w-[1400px]">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold tracking-tight">

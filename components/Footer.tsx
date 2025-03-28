@@ -4,7 +4,7 @@ import { Beaker } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-200 py-12">
-      <div className="container mx-auto px-8 2xl:max-w-[1400px]">
+      <div className="container mx-auto px-3 sm:px-8 2xl:max-w-[1400px]">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">

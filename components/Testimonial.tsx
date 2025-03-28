@@ -34,7 +34,7 @@ const Card = ({ name, program, year, quote, img }: Props) => (
 
 const Testimonial = () => (
   <section className="py-16 md:py-24 bg-slate-50">
-    <div className="container mx-auto px-8 2xl:max-w-[1400px]">
+    <div className="container mx-auto px-3 sm:px-8 2xl:max-w-[1400px]">
       <div className="text-center max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold tracking-tight text-black">
           Student Testimonials
