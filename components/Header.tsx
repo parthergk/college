@@ -5,7 +5,7 @@ import { Beaker } from "lucide-react";
 const Header = () => {
   return (
     <header className="sticky top-0 z-40 w-full bg-white backdrop-blur-md text-black">
-      <div className=" px-8 w-full flex h-16 items-center justify-between">
+      <div className=" px-2 sm:px-8 w-full flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Beaker className="h-6 w-6 text-[#0e7490]" />
           <span className="text-xl font-bold">Jagmeet College</span>
@@ -45,7 +45,7 @@ const Header = () => {
             Contact
           </Link>
         </nav>
-        <button className=" text-base text bg-[#0e7490] text-white hover:bg-[#0e7490]/90 h-10 px-4 py-2 cursor-pointer rounded-md">
+        <button className=" text-base text bg-[#0e7490] text-white hover:bg-[#0e7490]/90 h-10 px-2 sm:px-4 py-2 cursor-pointer rounded-md">
           Apply Now
         </button>
       </div>
