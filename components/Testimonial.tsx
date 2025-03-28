@@ -5,14 +5,15 @@ interface Props {
   program: string;
   year: string;
   quote: string;
+  img: string;
 }
-const Card = ({ name, program, year, quote }: Props) => (
+const Card = ({ name, program, year, quote, img }: Props) => (
   <div className="md:w-1/3 flex-shrink-0 overflow-hidden border rounded-lg">
     <div className="p-6">
       <div className="flex items-center gap-4 mb-4">
         <div className="w-12 h-12 rounded-full overflow-hidden">
           <Image
-            src="/placeholder.svg?height=48&width=48"
+            src={img}
             width={48}
             height={48}
             alt="Student portrait"
@@ -53,18 +54,21 @@ const Testimonial = () => (
               program="Pharm.D"
               year="2022"
               quote="The hands-on experience and mentorship I received at PharmCollege prepared me exceptionally well for my career. The faculty's dedication to student success is unmatched."
+              img="/img/student1.jpg"
             />
             <Card
               name="Michael Chen"
               program="B.Pharm"
               year="2023"
               quote="The research opportunities available to undergraduates are incredible. I was able to contribute to meaningful research projects from my second year, which gave me a competitive edge."
+              img="/img/student2.jpg"
             />
             <Card
               name="Priya Patel"
               program="M.S. Pharmaceutical Sciences"
               year="2021"
               quote="The faculty's industry connections helped me secure an internship that turned into a full-time position. The curriculum perfectly balances theory with practical applications."
+              img="/img/student3.jpg"
             />
           </div>
         </div>
