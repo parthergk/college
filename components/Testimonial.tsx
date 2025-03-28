@@ -26,7 +26,7 @@ const Card = ({ name, program, year, quote }: Props) => (
           </p>
         </div>
       </div>
-      <p className="text-slate-600 italic">"{quote}"</p>
+      <p className="text-slate-600 italic">&quot;{quote}&quot;</p>
     </div>
   </div>
 );

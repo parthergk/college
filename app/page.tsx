@@ -1,16 +1,3 @@
-
-import Link from "next/link";
-import {
-  ChevronRight,
-  Beaker,
-  BookOpen,
-  FlaskRoundIcon as Flask,
-  Microscope,
-  Building,
-  Users,
-  ChevronLeft,
-} from "lucide-react";
-import Card from "@/components/Card";
 import Testimonial from "@/components/Testimonial";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
