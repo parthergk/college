@@ -61,14 +61,14 @@ const Testimonial = () => (
               program="B.Pharm"
               year="2023"
               quote="The research opportunities available to undergraduates are incredible. I was able to contribute to meaningful research projects from my second year, which gave me a competitive edge."
-              img="/img/student2.jpg"
+              img="/img/student1.jpg"
             />
             <Card
               name="Priya Patel"
               program="M.S. Pharmaceutical Sciences"
               year="2021"
               quote="The faculty's industry connections helped me secure an internship that turned into a full-time position. The curriculum perfectly balances theory with practical applications."
-              img="/img/student3.jpg"
+              img="/img/student1.jpg"
             />
           </div>
         </div>
