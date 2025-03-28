@@ -65,7 +65,7 @@ const Testimonial = () => (
             />
             <Card
               name="Priya Patel"
-              program="M.S. Pharmaceutical Sciences"
+              program="M.S"
               year="2021"
               quote="The faculty's industry connections helped me secure an internship that turned into a full-time position. The curriculum perfectly balances theory with practical applications."
               img="/img/student1.jpg"
