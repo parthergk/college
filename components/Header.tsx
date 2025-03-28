@@ -4,7 +4,7 @@ import { Beaker } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-40 w-full bg-white text-black">
+    <header className="sticky top-0 z-40 w-full bg-white backdrop-blur-md text-black">
       <div className=" px-8 w-full flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Beaker className="h-6 w-6 text-[#0e7490]" />

@@ -9,7 +9,7 @@ function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Beaker className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold text-white">PharmCollege</span>
+              <span className="text-xl font-bold text-white">Jagmeet College</span>
             </div>
             <p className="text-slate-400 text-sm">
               Dedicated to excellence in pharmaceutical education, research, and
