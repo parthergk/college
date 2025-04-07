@@ -1,13 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { Beaker } from "lucide-react";
 
 const Header = () => {
   return (
     <header className="sticky top-0 z-40 w-full bg-white backdrop-blur-md text-black">
       <div className=" px-2 sm:px-8 w-full flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Beaker className="h-6 w-6 text-[#0e7490]" />
           <span className="text-xl font-bold">Jagmeet College</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
